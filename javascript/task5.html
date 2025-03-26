@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form Validation</title>
+    <style>
+        .error { color: red; font-size: 14px; }
+        .input-error { border: 2px solid red; }
+    </style>
+    <script src="task5.js" defer></script>
+</head>
+<body>
+    <form id="myForm" onsubmit="return validateForm()">
+        <label>Name: <input type="text" id="name"></label>
+        <span class="error" id="nameError"></span><br><br>
+
+        <label>Email: <input type="text" id="email"></label>
+        <span class="error" id="emailError"></span><br><br>
+
+        <label>Website: <input type="text" id="website"></label>
+        <span class="error" id="websiteError"></span><br><br>
+
+        <label>Message: <textarea id="message"></textarea></label>
+        <span class="error" id="messageError"></span><br><br>
+
+        <button type="submit">Submit</button>
+    </form>
+</body>
+</html>

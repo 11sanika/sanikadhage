@@ -1,0 +1,75 @@
+body {
+    font-family: 'Times New Roman', Times, serif;
+    background-color: #fafafa;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.login-container {
+    background: white;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    width: 350px;
+}
+
+.logo {
+    font-family: 'Brush Script MT', cursive;
+    font-size: 32px;
+    font-weight: bold;
+}
+
+.input-group {
+    display: flex;
+    align-items: center;
+    border: 1px solid #ccc;
+    padding: 10px;
+    margin: 10px 0;
+    border-radius: 5px;
+}
+
+.input-group input {
+    border: none;
+    outline: none;
+    flex: 1;
+    padding-left: 10px;
+}
+
+.icon {
+    font-size: 18px;
+}
+
+.login-btn {
+    width: 100%;
+    background-color: #0095f6;
+    color: white;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.login-btn:hover {
+    background-color: #0077cc;
+}
+
+.options {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 10px;
+    font-size: 14px;
+}
+
+.forgot-password {
+    color: #0095f6;
+    text-decoration: none;
+}
+
+.signup-text {
+    margin-top: 20px;
+    font-size: 14px;
+}
